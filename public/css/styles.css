@@ -1,0 +1,238 @@
+body {
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0F1E25;
+}
+
+.open {
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #C8E690;
+    max-width: 1400px;
+    margin: auto auto -20px auto;
+
+
+}
+
+.navbar-brand {
+    margin-left: -15px;
+}
+
+.navbar-nav li a:hover {
+    color: black !important;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #184D47;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.footer p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #fff;
+    padding: 20px;
+}
+
+.intro {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Pacifico', cursive;
+    color: #184D47;
+
+}
+
+.greetings {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+    color: #184D47;
+}
+
+.home {
+    max-width: 1400px;
+    margin: 500px auto auto auto;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+
+}
+.readMore{
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+
+
+}
+.days {
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+
+}
+
+.about {
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+}
+
+.contact {
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+}
+
+.projects {
+    max-width: 1400px;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.projectHeading {
+    font-size: 6rem;
+    font-family: 'Pacifico', cursive;
+    color: #184D47;
+
+}
+
+.templates {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+    background-color: #184D47;
+    margin: 150px auto auto auto;
+
+
+}
+
+.compose {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.textBox {
+    margin: 10px 5px 10px 0px;
+    max-width: 1400px;
+    width: 100%;
+}
+.headBox{
+    margin: 10px 5px 10px 0px;
+    
+}
+.publish{
+    width: 10%;
+    float: right;
+    margin-top: 20px;
+}
+.newPublish{    
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+}
+
+.dailyBlog{
+    max-width: 1400px;
+    text-align: center;
+    margin: 50px auto auto auto;
+    color: white;
+
+}
+
+.publish:hover{
+    background-color: black;
+    color: white;
+}
+.composeLink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.comp-btn:hover {
+    background-color: #184D47;
+    color: white;
+}
+
+.first {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+}
+
+.second {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+
+
+}
+
+.third {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+
+
+}
+
+.fourth {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+
+
+}

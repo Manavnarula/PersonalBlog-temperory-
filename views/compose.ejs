@@ -1,0 +1,20 @@
+<%- include("partials/header");  %>
+<div class="container">
+    <h1>Compose</h1>
+    <form class="" action="/compose" method="post">
+        <div class="form-group">
+            <label for="postTitle">Title:</label>
+            <br>
+            <input type="text" class="form-control headBox" name="postTitle" id="postTitle style="width: 100%; autocomplete="off"">
+            <br>
+        </div>
+        <div class="form-group green-border-focus">
+            <label for="postBody">Post:</label>
+            <br>
+            <textarea class="form-control textBox" name="postBody" id="postBody" rows="4" cols="100"></textarea>
+        </div>
+        <button class="btn btn-outline-success my-2 my-sm-0 publish" name="button" type="submit">Publish</button><br>
+
+    </form>
+
+</div>

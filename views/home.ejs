@@ -1,0 +1,42 @@
+<%- include("partials/header");  %>
+
+<div class="open container">
+    <div>
+        <h1 class="intro">Hi. I'm Manav</h1>
+        <h2 class="greetings">Welcome to my Personal Blog</h2>
+    </div>
+</div>
+
+<div class="home container">
+    <h1>Home</h1>
+    <p> <%= startingContent %> </p>
+</div>
+<div class="dailyBlog container">
+    <h1>Daily Blogs Under this Section ⬇</h1>
+</div>
+
+<div class="newPublish container">
+
+    <% posts.forEach(function(newBlog){ %>
+    <h1><%=   newBlog.title %></h1>
+    <p>
+        <%=   newBlog.content.substring(0, 100) + " ..." %>
+        <a href="/posts/<%=newBlog.title%> ">Read more</a>
+    </p>
+
+    <% }); %>
+
+</div>
+
+
+
+<div class="compose container">
+
+    <a class="composeLink" href="/compose"> <button type="button" class="btn btn-lg comp-btn">Compose + </button></a>
+
+</div>
+
+
+<%- include("partials/footer");  %>
+
+<%# console.log(posts); %>
