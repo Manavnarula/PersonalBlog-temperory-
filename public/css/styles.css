@@ -1,3 +1,11 @@
+.about {
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+}
+
 body {
     background-image: url(wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
@@ -8,14 +16,185 @@ body {
     background-color: #0F1E25;
 }
 
-.open {
+.composeLink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.comp-btn:hover {
+    background-color: #184D47;
+    color: white;
+}
+
+.compose {
+    margin-top: 50px;
     text-align: center;
+}
+
+.contact {
     max-width: 1400px;
-    margin: auto;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
 }
 
 .container-fluid {
     padding: 3% 10%;
+}
+
+
+
+.dailyBlog {
+    max-width: 1400px;
+    text-align: center;
+    margin: 50px auto auto auto;
+    color: white;
+
+}
+
+.days {
+    max-width: 1400px;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+
+}
+
+.footer {
+    position: static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #184D47;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+
+
+.footer p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #fff;
+    padding: 20px;
+}
+
+.greetings {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+    color: #184D47;
+}
+
+.headBox {
+    margin: 10px 5px 10px 0px;
+
+}
+
+.home {
+    max-width: 1400px;
+    margin: 500px auto auto auto;
+    background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.igFashion {
+    height: 450px;
+    width: 260px;
+    margin: -10px;
+    border: 1px solid white;
+}
+
+.igfirst {
+    width: 25%;
+    color: white;
+    padding: 20px;
+    margin: 10px 5px 5px 5px;
+}
+
+.igsecond {
+    width: 25%;
+    color: white;
+    padding: 20px;
+    margin: 10 px 15px 5px 12px;
+
+
+}
+
+.igthird {
+    width: 25%;
+    color: white;
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
+
+
+}
+
+.igfourth {
+    width: 25%;
+    color: white;
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
+}
+
+.igpuzzle {
+    height: 350px;
+    width: 350px;
+    border: 1px solid white;
+    margin: 5px 4px 5px 4px;
+    padding: 0px;
+}
+
+.imagePara {
+    text-align: center;
+    margin: 5px;
+}
+
+.innerTable {
+    margin: 5px 5px 5px -20px;
+}
+
+.innerTableNews {
+    text-align: center;
+    margin: 10px 5px 5px 60px;
+
+}
+
+.innerTablePuzzle1 {
+    margin: 5px 5px 5px 10px
+}
+
+.innerTablePuzzle2 {
+    margin: 100px 5px 5px 10px
+}
+
+.innerTablePuzzle3 {
+    margin: 100px 5px 5px 10px
+}
+
+.innerTablePuzzle4 {
+    margin: 100px 5px 5px 10px
+}
+
+.intro {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Pacifico', cursive;
+    color: #184D47;
+
 }
 
 .navbar {
@@ -40,85 +219,91 @@ body {
     color: black !important;
 }
 
-.footer-padding {
-    padding-bottom: 60px;
+.nletter1 {
+    width: 33%;
+    color: white;
+    padding: 20px;
+    margin: 10px 5px 5px 5px;
 }
 
-.footer {
-    position: static;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+.newPublish {
+    max-width: 1400px;
     background-color: #184D47;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+}
+
+.newsletter {
+    height: 450px;
+    width: 300px;
+    margin: -10px;
+    border: 1px solid white;
+}
+
+.open {
+    text-align: center;
     max-width: 1400px;
     margin: auto;
-
 }
 
-.footer p {
-    margin-top: 25px;
-    font-size: 12px;
-    color: #fff;
+.pfirst {
+    width: 25%;
+    color: white;
     padding: 20px;
+    margin: 10px 5px 5px 5px;
 }
 
-.intro {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 10rem;
-    font-family: 'Pacifico', cursive;
-    color: #184D47;
-
-}
-
-.greetings {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Bree Serif', serif;
-    color: #184D47;
-}
-
-.home {
-    max-width: 1400px;
-    margin: 500px auto auto auto;
-    background-color: #184D47;
+.psecond {
+    width: 25%;
     color: white;
-    border-radius: 10px;
-
-}
-.readMore{
-    max-width: 1400px;
-    background-color: #184D47;
-    color: white;
-    border-radius: 10px;
-    margin: 100px auto auto auto;
+    padding: 20px;
+    margin: 10 px 15px 5px 12px;
 
 
 }
-.days {
-    max-width: 1400px;
-    background-color: #184D47;
+
+.pthird {
+    width: 25%;
     color: white;
-    border-radius: 10px;
-    margin: 100px auto auto auto;
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
+
 
 }
 
-.about {
-    max-width: 1400px;
-    background-color: #184D47;
+.pfourth {
+    width: 25%;
     color: white;
-    border-radius: 10px;
-    margin: 100px auto auto auto;
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
 }
 
-.contact {
-    max-width: 1400px;
-    background-color: #184D47;
+.puzFirst {
+    width: 33%;
     color: white;
-    border-radius: 10px;
-    margin: 100px auto auto auto;
+    margin: 10px 5px 5px 5px;
+
+}
+
+.puzsecond {
+    width: 33%;
+    color: white;
+    margin: 1px 5px 5px 5px;
+}
+
+puzsThird {
+    width: 33%;
+    color: white;
+    margin: 1px 5px 5px 5px;
+
+}
+
+.poster {
+    height: 400px;
+    width: 260px;
+    margin: -10px;
+    border: 1px solid white;
 }
 
 .projects {
@@ -132,25 +317,121 @@ body {
 
 .projectHeading {
     font-size: 6rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Luckiest Guy', cursive;
     color: #184D47;
 
 }
 
-.templates {
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+.publish {
+    width: 10%;
+    float: right;
+    margin-top: 20px;
+}
 
+.publish:hover {
+    background-color: black;
+    color: white;
+}
+
+.readMore {
+    max-width: 1400px;
     background-color: #184D47;
-    margin: 150px auto auto auto;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
 
 
 }
 
-.compose {
-    margin-top: 50px;
+
+.table {
+    padding: 30px;
+    margin: 10px 5px 10px 1px;
+}
+
+.tablePuzzle {
+    padding: 30px;
+    margin: 10px 5px 10px -5px;
+}
+
+
+.tableHeading1 {
+    color: white;
+    margin: 5px 5px 30px 10px;
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
     text-align: center;
+
+}
+
+.tableHeading2 {
+    color: #053742;
+    margin: 5px 5px 30px 10px;
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+
+}
+
+.tableHeading3 {
+    color: white;
+    margin: 5px 5px 30px 10px;
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+
+}
+
+.tableHeading4 {
+    color: white;
+    margin: 5px 5px 40px 10px;
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+.tableHeading5 {
+    color: white;
+    margin: 5px 5px 30px 10px;
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+.templates1 {
+    display: flex;
+    border-radius: 10px;
+    background-color: #184D47;
+    margin: 150px auto auto auto;
+
+}
+
+.templates2 {
+    display: flex;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    margin: 100px auto auto auto;
+}
+
+.templates3 {
+    display: flex;
+    border-radius: 10px;
+    background-color: #184D47;
+    margin: 100px auto auto auto;
+}
+
+.templates4 {
+
+    border-radius: 10px;
+    background-color: #184D47;
+    margin: 100px auto auto auto;
+}
+
+.templates5 {
+    display: flex;
+    border-radius: 10px;
+    background-color: #184D47;
+    margin: 100px auto auto auto;
 }
 
 .textBox {
@@ -158,81 +439,61 @@ body {
     max-width: 1400px;
     width: 100%;
 }
-.headBox{
-    margin: 10px 5px 10px 0px;
-    
-}
-.publish{
-    width: 10%;
-    float: right;
-    margin-top: 20px;
-}
-.newPublish{    
-    max-width: 1400px;
-    background-color: #184D47;
+
+.tyfirst {
+    width: 25%;
     color: white;
-    border-radius: 10px;
-    margin: 100px auto auto auto;
+    padding: 20px;
+    margin: 10px 5px 5px 5px;
 }
 
-.dailyBlog{
-    max-width: 1400px;
-    text-align: center;
-    margin: 50px auto auto auto;
+.tysecond {
+    width: 25%;
     color: white;
-
+    padding: 20px;
+    margin: 10 px 15px 5px 12px;
 }
 
-.publish:hover{
-    background-color: black;
+.tythird {
+    width: 25%;
     color: white;
-}
-.composeLink:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
 }
 
-.comp-btn:hover {
-    background-color: #184D47;
+.tyfourth {
+    width: 25%;
     color: white;
+    padding: 20px;
+    margin: 10px 15px 5px 5px;
 }
 
-.first {
-    width: 20%;
-    float: left;
-    color: white;
-    padding: 50px;
-    margin: 10px;
+
+
+
+
+.thankyou {
+    height: 450px;
+    width: 260px;
+    margin: -10px;
+    border: 1px solid white;
 }
 
-.second {
-    width: 20%;
-    float: left;
-    color: white;
-    padding: 50px;
-    margin: 10px;
 
 
+
+
+@media (max-width: 1200px) {
+    .templates {
+        flex-direction: column;
+
+
+    }
 }
 
-.third {
-    width: 20%;
-    float: left;
-    color: white;
-    padding: 50px;
-    margin: 10px;
+@media (max-width: 321px) {
 
-
-}
-
-.fourth {
-    width: 20%;
-    float: left;
-    color: white;
-    padding: 50px;
-    margin: 10px;
-
-
+    .projectHeading {
+        color: white;
+    }
 }
